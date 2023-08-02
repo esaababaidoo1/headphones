@@ -73,14 +73,20 @@ button {
 }
 
     
-.nav-links: :hover{
-    ff6565
+.nav a :hover {
+    #FF6565
 }
 
 button :hover {
-    opacity: 0.9;
+    opacity: 0,9;
 }
 
-.{
+.secction div h2 p {
+    color: white;
+    text-align: center;
+}
 
+#section-text{
+    font-size: 70px;
+    font-weight: 200px;
 }

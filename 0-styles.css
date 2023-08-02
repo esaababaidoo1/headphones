@@ -59,10 +59,8 @@ button {
     margin-top: 0;
     
 }
-@media (min-width:480px) {
-    .hero-section
+@media (max-width:480px) {
     
-
 }
 
 
@@ -73,10 +71,10 @@ button {
 }
 
     
-.nav-links: :hover{
-    ff6565
+.nav-a :hover{
+    color: #fff353; 
 }
 
-button :hover {
+.button:hover{
     opacity: 0.9;
 }
