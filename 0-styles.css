@@ -56,6 +56,27 @@ button {
 }
 
 .text {
-    margin-top: ;
+    margin-top: 0;
     
+}
+@media (min-width:480px) {
+    .hero-section
+    
+
+}
+
+
+@media (max-width:1000px) {
+    .hero-section
+
+
+}
+
+    
+.nav-links: :hover{
+    ff6565
+}
+
+button :hover {
+    opacity: 0.9;
 }
