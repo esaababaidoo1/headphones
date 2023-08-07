@@ -73,58 +73,73 @@ button {
 
 }
 
-    
-.nav a :hover(#FF6565) {
-    
+.nav a :hover {
+    (#FF6565)
+    color: #000;
 }
 
 button :hover {
     opacity: 0,9;
 }
-
-.what we do section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding: 20px;
-    background-color:solid black;
+.work-section  {
+    padding-top: 0;
+    display:flex;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color:rgb(95, 143, 23)
+    text-align: center;
+    justify-content: center;
 }
-
-.work-section{
-    flex-basis: 60%;
-    max-width: 60%;
+.work-section .work-section-title {
+    line-height: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 11rem;
+    margin-bottom: 4rem;
 }
-
-.work-section-tiltle {
-    font-size: 30px;
+.work-section .work-section-description {
+    color: aqua;
+    max-width: 20rem;
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 2rem;
+    margin: auto;
+    @media (min-width:480px) 
+    @media (max-width:1000px) 
+}
+.work-section  .boxes {
+    margin-top: 12rem;
     color: solid black;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: fit-content 100rem;
 }
-
-.work-section p{
-    font-size: 15px;
-    color: blue;
-    margin-bottom: 20px;
+.work-section  .boxes .image-boxes-title {
+    margin-top: 3rem;
+    margin-bottom: 1.3rem;
 }
-
-.image-boxes{
-    border-radius: 5px;
-    background-color: white;
-    margin: 10px;
-    padding: 15px;
+.work-section .boxes .image-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    width: 50%;
 }
-
-.image-boxes h2 {
-    font-size: 20px;
-    color: burlywood;
-    margin: 10px;
-    margin: bottom 5px; 
+.work-section .boxes .image-boxes-description {
+    width: 20rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
 }
+   
 
-.image-boxes p {
-    color: brown;
-    font-size: 15px;
-}
 
+  
 
 
 
