@@ -95,8 +95,8 @@ button :hover {
     line-height: 4rem;
     text-align: center;
     font-size: 3rem;
-    margin-top: 11rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .work-section .work-section-description {
     color: aqua;
@@ -110,8 +110,8 @@ button :hover {
     @media (max-width:1000px) 
 }
 .work-section  .boxes {
-    margin-top: 12rem;
-    color: solid black;
+    margin-top: 10rem;
+    color: solid rgb(73, 172, 111);
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
@@ -120,8 +120,8 @@ button :hover {
     max-width: fit-content 100rem;
 }
 .work-section  .boxes .image-boxes-title {
-    margin-top: 3rem;
-    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1;
 }
 .work-section .boxes .image-boxes {
     display: flex;
@@ -137,7 +137,10 @@ button :hover {
     font-size: 1.5rem;
     line-height: 2.6rem;
 }
-   
+.work-section p {
+    color: aqua;
+
+}
 
 
   
