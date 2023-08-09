@@ -61,86 +61,96 @@ button {
     
 }
 @media (min-width:480px) {
-    .hero-section
+    .header
+    background-position: 44%;
     
 
 }
 
 
 @media (max-width:1000px) {
-    .hero-section
+    .header
 
 
 }
 
-.nav a :hover {
+.button :hover .button:active {
     (#FF6565)
-    color: #000;
+   0pacity:0.9
+
+   }
+
+   
+.section {
+   width: 100%;
+   position: relative;
 }
 
-button :hover {
-    opacity: 0,9;
-}
-.work-section  {
-    padding-top: 0;
-    display:flex;
-    padding-left: 20px;
-    padding-right: 10px;
-    justify-content: center;
+.section p {
     text-align: center;
-    background-color:solid black
-    
+    width: 65%;
+    margin:2rem auto;
+    line-height:1.4;
+    font-size: var(medium);
+    font-family: var(--font);
 }
-.work-section .work-section-title {
-    line-height: 4rem;
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+
+.section .container {
+  padding: 3rem;
+  flex-wrap: wrap ;
 }
-.work-section .work-section-description {
-    color: aqua;
-    max-width: 20rem;
-    text-align: center;
-    font-weight: 200;
-    font-style: normal;
-    line-height: 2rem;
+
+.button .grid {
+    margin: 0.4rem;
+}
+
+.section .grid .element h2 {
+    font-family: var(--font);
+    font-size: var(--font-medium);
+}
+
+
+.section-title {
+    width: 100%;
     margin: auto;
-    @media (min-width:480px) 
-    @media (max-width:1000px) 
-}
-.work-section  .boxes {
-    margin-top: 10rem;
-    color: solid rgb(73, 172, 111);
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: fit-content 100rem;
-}
-.work-section  .boxes .image-boxes-title {
-    margin-top: 1rem;
-    margin-bottom: 1;
-}
-.work-section .boxes .image-boxes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10rem;
-    width: 50%;
-}
-.work-section .boxes .image-boxes-description {
-    width: 20rem;
+    font-family: var(--font);
+    font-size: var(large);
+    font-weight: bold;
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 2.6rem;
-}
-.work-section p {
-    color: aqua;
 
 }
+
+.section p {
+text-align: center;
+font-weight: bold;
+color: red;
+width: 100%;
+}
+
+/**responsiveness/**/
+
+@media(max-width:480px) {
+    section .container
+}
+
+.section .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.section .grid .element p {
+    width: 60%;
+    margin: auto;
+
+
+}
+
+.icons {
+   color: aqua ;
+   font-size: 50px;
+
+}
+
 
 
   
