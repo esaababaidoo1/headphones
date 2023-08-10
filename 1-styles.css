@@ -100,13 +100,12 @@ button {
   flex-wrap: wrap ;
 }
 
-.button .grid {
-    margin: 0.4rem;
-}
 
 .section .grid .element h2 {
     font-family: var(--font);
     font-size: var(--font-medium);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -125,6 +124,7 @@ text-align: center;
 font-weight: bold;
 color: red;
 width: 100%;
+text-align: center;
 }
 
 /**responsiveness/**/
@@ -133,23 +133,17 @@ width: 100%;
     section .container
 }
 
-.section .grid {
-    grid-template-columns: 100%;
-    grid-template-rows: 25% 25% 25% 25%;
-}
 
-.section .grid .element p {
+
+.section .element p {
     width: 60%;
     margin: auto;
+    display: flex;
+    align-items: center;
 
 
 }
 
-.icons {
-   color: aqua ;
-   font-size: 50px;
-
-}
 
 
 

@@ -171,6 +171,15 @@ button :hover {
     font-size: 30px;
  }
 
+ #result .grid .element {
+    height: 10rem;
+    padding: 0;
+    background-image: url("images/pentagone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+ }
+
  #result .grid .element h2 {
     position: relative;
     top: 10%;
@@ -183,7 +192,7 @@ button :hover {
  }
 
  /**responsiveness**/
- @media (max-width::480px) {
+ @media (max-width:480px) {
     #result
     background-position: 50%;
  }
