@@ -156,7 +156,7 @@ button :hover {
  /**our result**/
 
  #result{
-    color: white;
+    color: rgb(125, 148, 125);
     background-image: url("../images/headphones_hero_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;

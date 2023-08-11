@@ -217,23 +217,40 @@ button :hover {
     font-weight: bold;
  }
 
- input:focus {
-    outline: none;
- }
 
  input {
     width: 70%;
  }
 
+
+ input :focus {
+   outline: none;
+
+ }
+
  /**responsiveness**/
- @media (max-width::480px)
- 
- 
- 
-   
- 
- 
- 
- 
+ @media (max-width:480px)
+
+ /**footer**/
+
+.footer {
+   height: 100px;
+   background-color: white;
+   margin: border-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 10px;
+ }
+
+ .footer span {
+   display: flex;
+   justify-content: space-between;
+   justify-items: center;
+   flex-direction: row;
+ }
+
+ @media (max-width:480px){
+   .footer span
+ }
  
  
