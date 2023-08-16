@@ -80,79 +80,64 @@ button {
 
 button :hover {
     opacity: 0,9;
+}
+   
 
     /** what we do section**/
-}
-.section {
-    width: 100%;
-    position: relative;
- }
- 
- .section p {
-     text-align: center;
-     width: 65%;
-     margin:2rem auto;
-     line-height:1.4;
-     font-size: var(medium);
-     font-family: var(--font);
- }
- 
- .section .container {
-   padding: 3rem;
-   flex-wrap: wrap ;
- }
- 
- .button .grid {
-     margin: 0.4rem;
- }
- 
- .section .grid .element h2 {
-     font-family: var(--font);
-     font-size: var(--font-medium);
- }
- 
- 
- .section-title {
-     width: 100%;
-     margin: auto;
-     font-family: var(--font);
-     font-size: var(large);
-     font-weight: bold;
-     text-align: center;
- 
- }
- 
- .section p {
- text-align: center;
- font-weight: bold;
- color: red;
- width: 100%;
- }
- 
- /**responsiveness/**/
- 
- @media(max-width:480px) {
-     section .container
- }
- 
- .section .grid {
-     grid-template-columns: 100%;
-     grid-template-rows: 25% 25% 25% 25%;
- }
- 
- .section .grid .element p {
-     width: 60%;
-     margin: auto;
- 
- 
- }
- 
- .icons {
-    color: aqua ;
-    font-size: 50px;
- 
- }
-
+    section {
+        width: 100%;
+        position: relative;
+     }
+     
+    
+     .holberton_school-icons-ic_sound, .holberton_school-icons-ic_video, .holberton_school-icons-ic_music, .holberton_school-icons-ic_hearing {
+        display: flex;
+        color: var(--color-blue);
+        font-size: 50px;
+     }
+    
+     .section span {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    
+     }
+    
+     .text h2 {
+        background-color: aquamarine;
+        font-size: medium;
+     }
+     
+     
+    .section .grid .element h2 {
+        display: flex;
+        color: var(--color-blue);
+        font-size: 50px;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        
+        
+     }
+    
+     
+     .section-title {
+        width: 100%;
+        margin: auto;
+        font-family: var(--font);
+        font-size: var(large);
+        font-weight: bold;
+        text-align: center;
+    
+    }
+    
+     
+     
+     /**responsiveness/**/
+     
+     @media(max-width:480px) {
+         section .container
+     }
+     
  /**our result**/
 
  #result {

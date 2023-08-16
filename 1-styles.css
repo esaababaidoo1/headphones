@@ -62,8 +62,7 @@ button {
 }
 @media (min-width:480px) {
     .header
-    background-position: 44%;
-    
+   
 
 }
 
@@ -76,40 +75,52 @@ button {
 
 .button :hover .button:active {
     (#FF6565)
-   0pacity:0.9
 
+   }
+   {
+    opacity: 0.9;
    }
 
    /** what we do**/
+}
+
 .section {
-   width: 100%;
-   position: relative;
-}
+    width: 100%;
+    position: relative;
+ 
+ }
 
-.section p {
-    text-align: center;
-    width: 65%;
-    margin:2rem auto;
-    line-height:1.4;
-    font-size: var(medium);
-    font-family: var(--font);
-}
-
-.section .container {
-  padding: 3rem;
-  flex-wrap: wrap ;
-}
-
-
-.section .grid .element h2 {
-    font-family: var(--font);
-    font-size: var(--font-medium);
+ .holberton_school-icons-ic_sound, .holberton_school-icons-ic_video, .holberton_school-icons-ic_music, .holberton_school-icons-ic_hearing {
     display: flex;
-    justify-content: center;
-}
+    color: var(--color-blue);
+    font-size: 50px;
+ }
 
+ .section span {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 
-.section-title {
+ }
+
+ .text  {
+    background-color: aquamarine;
+    font-size: medium;
+ }
+ 
+ 
+.section .grid .element h2 {
+    display: flex;
+    color: var(--color-blue);
+    font-size: 50px;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    
+    
+ }
+
+ 
+ .section-title {
     width: 100%;
     margin: auto;
     font-family: var(--font);
@@ -119,37 +130,10 @@ button {
 
 }
 
-.section p {
-text-align: center;
-font-weight: bold;
-color: red;
-width: 100%;
-text-align: center;
-}
-
-/**responsiveness/**/
-
-@media(max-width:480px) {
-    section .container
-}
-
-
-
-.section .element p {
-    width: 60%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-
-
-}
-
-
-
-
-  
-
-
-
-
-
+ 
+ 
+ /**responsiveness/**/
+ 
+ @media(max-width:480px) {
+     section .container
+ }

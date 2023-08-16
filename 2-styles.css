@@ -87,8 +87,8 @@ button :hover {
 .section {
     width: 100%;
     position: relative;
- }
  
+ }
 
  .holberton_school-icons-ic_sound, .holberton_school-icons-ic_video, .holberton_school-icons-ic_music, .holberton_school-icons-ic_hearing {
     display: flex;
