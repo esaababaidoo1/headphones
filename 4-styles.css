@@ -184,7 +184,8 @@ button :hover {
 
  /**responsiveness**/
  @media (max-width:480px) {
-    #result
+ }
+    #result {
     background-position: 50%;
  }
 
@@ -229,9 +230,52 @@ button :hover {
  }
 
  /**responsiveness**/
- @media (max-width:480px)
+ @media (max-width:480px) {
+
+ }
 
  /**footer**/
+
+  footer .container { 
+    padding: 3rem 4rem;
+ }
+
+ .good {
+   height: 80px;
+   background-color: aqua;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+
+ }
+  
+ .good span {
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+ }
+
+ .good .logo {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+ }
+
+ .footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .footer-nav   {
+    display: flex;
+    margin: auto;
+    padding: 0%;
+    font-weight: bold;
+    font-family: var(--font);
+    font-size: var(--large);
+ }
 
 
  
